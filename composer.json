@@ -1,0 +1,21 @@
+{
+    "name": "eneskomur/parasut-v4",
+    "description": "Paraşüt V4 Api Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Enes Kömür",
+        "email": "eneskomur@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Parasut\\": "src"
+        },
+        "files": []
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "ext-curl": "*"
+    },
+    "minimum-stability": "dev"
+}
